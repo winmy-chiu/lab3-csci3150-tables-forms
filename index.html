@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and From</title>
+    <link href="css/semantics.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/skip-nav.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Lab 3</h1>
+        </header>
+        <nav>
+            <h2 class="sr-only">Main Navigation</h2>
+            <ul>
+                <li><a href="#table">Table</a><span aria-hidden="true" class="material-symbols-outlined">table_chart</span></li>
+                <li><a href="#form">Form</a><span aria-hidden="true" class="material-symbols-outlined">edit_note</span></li>
+            </ul>
+        </nav>
+        <section id="table">
+            <h2>Table</h2>
+            <table>
+                <caption>Animated Series</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Season</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Network(s)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Pleasant Goat and Big Big Wolf</td>
+                            <td>Children's Channel, Hangzhou Television</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Pleasant Goat Sports Game</td>
+                            <td>CCTV-14</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Joys of Seasons</td>
+                            <td>ZJTV</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Pleasant Goat Touring the Expo</td>
+                            <td>BesTV IPTV Platform</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Smart Dodging</td>
+                            <td>ZJTV</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+        <section id="form">
+            <h2>Form</h2>
+            <form id="myform" method="post">
+                <fieldset>
+                    <legend>Please Fill Out the Form</legend>
+
+                    <label for="username">
+                        what is your name?
+                        <input type="text" id="username" required>
+                    </label>
+
+                    <label for="email">
+                        what is your email?
+                        <input type="email" id="email" required>
+                    </label>
+
+                    <label for="favorite-season-title">
+                        what is your favorite animated series?
+                        <input type="text" id="favorite-season-title" placeholder="Joys of Seasons">
+                    </label>
+
+                    <label for="age">
+                        how old are you?
+                        <input type="number" id="age" placeholder="18">
+                    </label>
+                    <input type="submit">
+
+                </fieldset>
+            </form>
+        </section>  
+    <footer>
+        <!-- small print, use css for other design -->
+        <small>&copy; 2023 
+            <a href="https://en.wikipedia.org/wiki/Pleasant_Goat_and_Big_Big_Wolf">Wikipedia</a> </small>
+    </footer>
+    
+</div>
+
+</body>
+</html>

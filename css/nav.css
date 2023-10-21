@@ -1,0 +1,25 @@
+/* nav ul li {
+    list-style: none;
+} */
+
+nav ul li a {
+    text-decoration: none; /* Take out underline*/
+    font-size: 1.5em; /* Make the text bigger*/
+}
+
+/*Before hover through*/
+/* nav ul li a:link {
+    color: rgb(151, 165, 242);  
+} */
+
+nav ul li a:visited {
+    color:black;
+}
+
+nav ul li a:hover {
+    color: #3d9ca8;
+    background: white;
+}
+nav ul li a:active {
+    color:black;
+}

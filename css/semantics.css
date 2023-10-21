@@ -1,0 +1,76 @@
+/*Hide only visually, but have it available for screen readers: */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+body{
+    /* background-color: #FFD1CA; */
+    /* background-color: #D9CDA5; */
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*Paragraph*/
+p {
+    color: black;
+    line-height: 1.8em;
+}
+
+/*Whole page*/
+.container{
+    max-width: 960px;  /*The biggest, but can shrink*/
+    margin: 0 auto;  /*top and bottom is 0, right left auto */
+}
+
+/*Global*/
+h1, 
+h2, 
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/*h1 only*/
+h1 {
+    font-size: 1.7em;
+}
+/*h2 only*/
+h2 {
+    font-size: 1.3em;
+}
+/*h3 only*/
+h3 {
+    font-size: 1.0em;
+}
+
+.sr-only{
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+
+/* img {
+    width: 400px;
+} */
+
+
+table, th, td {
+    border-collapse: collapse;
+}
+td {
+    /* border-collapse: collapse; */
+    border: 2px solid black;
+    width: 30px, 200px, 80px;
+    height: 30px;
+}
+td {
+    padding-right: 60px;
+    padding-left: 20px;
+}
